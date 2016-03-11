@@ -25,6 +25,9 @@ using namespace std;
 int main(int argc, char** argv) {
 
  
+    cout << endl << "=====================================================" << endl << "UNICOMP SHOWKEY...  to exit, hold X key until it repeats" << endl << endl;
+    
+    
     clsGetCodes GetUnicode;
     std::vector<int> wholebuffer;
           int exits = 0;
